@@ -1,12 +1,6 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    background-color: #262123;
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 li,a {
-    font-family: Arial, serif;
+    font-family: 'Open Sans', Serif, serif;
     font-size: 16px;
     color: white;
     text-decoration: none;
@@ -14,9 +8,15 @@ li,a {
 
 header {
     display: flex;
+    background-color: #262123;
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
+}
+
+header h1 {
+    color: #fff;
+    font-family: "Open Sans", Serif, serif;
 }
 
 .nav_links {
@@ -33,7 +33,13 @@ header {
 }
 
 .nav_links li a:hover {
-    color: red;
+    color: #ffb3cc;
+}
+
+footer p {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <title>Kontakt</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styly.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Open Sans', serif;
+        }
+
+        section {
+            position: relative;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: #59484f;
+        }
+
+        section::before{
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 50%;
+            height: 100%;
+            background: #ffb3cc;
+        }
+        section .container {
+            position: relative;
+            min-width: 1100px;
+            min-height: 550px;
+            display: flex;
+        }
+
+        section .container .kontakt {
+            position: absolute;
+            top: 40px;
+            left: 350px;
+            width: 100%;
+            max-width: 500px;
+            height: auto;
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+            z-index: 1;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        section .container .kontakt h2 {
+            color: #fff;
+            font-size: 30px;
+        }
+
+        section .container .kontakt .info {
+            position: relative;
+            margin: 20px 0;
+
+        }
+
+        section .container .kontakt .info li {
+            position: relative;
+            list-style: none;
+            display: flex;
+            margin: 20px 0;
+            cursor: pointer;
+            align-items: flex-start;
+
+        }
+
+
+        section .container .kontakt .info li span .fa {
+            font-size: 80px;
+            line-height: 60px;
+            color: #000;
+            margin-top: 30px;
+        }
+
+
+        section .container .kontakt .info li span:nth-child(2) {
+            color: black;
+            margin-top: 45px;
+            margin-left: 20px;
+        }
+
+
+        section .container .kontakt .social {
+            position: relative;
+            display: flex;
+        }
+
+        section .container .kontakt .social li {
+            list-style: none;
+            margin-right: 30px;
+            cursor: pointer;
+        }
+
+        section .container .kontakt .social li a {
+            text-decoration: none;
+        }
+
+        section .container .kontakt .social li .fa {
+            font-size: 60px;
+            line-height: 60px;
+            color: #000;
+            margin-left: 40px;
+        }
+
+
+    </style>
+</head>
+<body>
+<header>
+    <br/>
+    <h1>Kontakt</h1>
+    <br/>
+    <nav>
+        <ul class="nav_links">
+            <li><a href="stranka2.html">Životopis</a></li>
+            <li><a href="">Fotogalerie</a></li>
+            <li><a href="">Služby</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+    </nav>
+</header>
+<section>
+<div class="container">
+    <div class="kontakt">
+        <div>
+            <h2>Kontaktní údaje</h2>
+            <ul class="info">
+                <li>
+                    <span><i class="fa fa-envelope"></i></span>
+                    <span>kuba04@vse.cz</span>
+                </li>
+                <li>
+                    <span><i class="fa fa-phone"></i></span>
+                    <span>653987056</span>
+                </li>
+            </ul>
+        </div>
+            <ul class="social">
+                <li><a href="https://www.instagram.com/adrikubecova/?hl=cs"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="https://www.facebook.com/Adri.Kubecova"><i class="fa fa-facebook"></i></a></li>
+            </ul>
+
+    </div>
+</div>
+</section>
+
+</body>
+</html>
