@@ -2,57 +2,83 @@
 <html lang="cs">
 <head>
     <meta charset="UTF-8">
-    <title>Adriana Kubecová</title>
-    <link rel="stylesheet" href="styly.css">
-    <link rel="stylesheet" href="styly_homepage.css">
-</head>
+    <title>Adriana Kubecová osobní web</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: 'Open Sans',serif ;
+        }
+        .banner-area{
+            width: 100%;
+            height: 100vh;
+            background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(obrazek.png);
+            background-size: cover;
+        }
 
+        .content-area{
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .content {
+            text-align: center;
+        }
+
+        .content h1{
+            font-size: 80px;
+            color: #fff;
+        }
+
+        .content p {
+            font-size: 30px;
+            color: #ddd;
+        }
+
+        .content .button {
+            border: none;
+            outline: none;
+            padding: 15px;
+            margin-top: 100px;
+            border-radius: 15px;
+            color: white;
+            font-size: 18px;
+            cursor: pointer;
+            background: rgba(0, 0, 0, 0.7);
+        }
+
+        .content .button:hover{
+            color: rgba(0, 0, 0, 0.5);
+            background-color: rgba(0, 0, 0, 0.5);
+
+        }
+
+        #link {
+            text-decoration: none;
+            color: white;
+        }
+
+        #link:visited{
+            color: white;
+        }
+    </style>
+</head>
 <body>
 
-    <header>
-        <br/>
-        <h1>Osobní stránky - Adriana Kubecová</h1>
-        <br/>
-        <nav>
-        <ul class="nav_links">
-            <li><a href="stranka2.html">Životopis</a></li>
-            <li><a href="">Fotogalerie</a></li>
-            <li><a href="">Služby</a></li>
-            <li><a href="kontakt.html">Kontakt</a></li>
-        </ul>
-        </nav>
-    </header>
-    <main>
-        <div class="container">
-            <p>
-                Lorem ipsum dolor sit amet,
-                consectetur adipisicing elit. Ab animi aperiam atque,
-                beatae cumque deleniti ea eligendi et fugiat molestiae nesciunt
-                officia possimus quasi qui reiciendis sit soluta! Facere fuga
-                libero sapiente sunt. Ad deleniti eos magni nesciunt odio omnis optio porro quam ullam ut. A accusamus accusantium alias at cumque distinctio dolor doloremque eos excepturi facere facilis fuga in laborum laudantium maiores minima minus mollitia necessitatibus neque nihil nulla perspiciatis porro quo repellendus rerum, sapiente vel, veniam voluptas voluptatum.
-            </p>
-
-            <div class="box">
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Aperiam, aut consectetur doloremque, ducimus eos laboriosam
-                libero minima molestiae non perferendis perspiciatis quae quaerat
-                repellat sit temporibus. Cum eius ipsam iste laudantium magnam
-                reiciendis rerum sunt. Accusantium deleniti facere omnis quaerat.
-            </p>
+    <div class="banner-area">
+        <div class="content-area">
+            <div class="content">
+                <h1>Adriana Kubecová</h1>
+                <p>Osobní stránky</p>
+                <button class="button"><a href="uvod.html" id="link">Pokračovat</a></button>
             </div>
-
         </div>
-        </div>
-    </main>
-
-
-    <footer>
-        <p>Tato stránka byla vytvořena v zimním semestru 2020/2021 jako semestrální práce k předmětu 4IZ268.</p>
-
-    </footer>
-
-
-
+    </div>
 </body>
 </html>
