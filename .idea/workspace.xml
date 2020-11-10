@@ -20,17 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df4756a4-d066-4f7d-b3de-98a0735f74db" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webovky.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kontakt.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styly_homepage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stranka2.html" beforeDir="false" afterPath="$PROJECT_DIR$/stranka2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styly.css" beforeDir="false" afterPath="$PROJECT_DIR$/styly.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uvodnistranka.html" beforeDir="false" afterPath="$PROJECT_DIR$/uvodnistranka.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kontakt.html" beforeDir="false" afterPath="$PROJECT_DIR$/kontakt.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styly_homepage.css" beforeDir="false" afterPath="$PROJECT_DIR$/styly_homepage.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +69,7 @@
       <workItem from="1604773718362" duration="3150000" />
       <workItem from="1604815459714" duration="4519000" />
       <workItem from="1604823608877" duration="6311000" />
-      <workItem from="1604989626241" duration="2843000" />
+      <workItem from="1604989626241" duration="3036000" />
     </task>
     <servers />
   </component>
