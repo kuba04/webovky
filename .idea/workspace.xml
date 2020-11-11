@@ -19,7 +19,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df4756a4-d066-4f7d-b3de-98a0735f74db" name="Default Changelist" comment="" />
+    <list default="true" id="df4756a4-d066-4f7d-b3de-98a0735f74db" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Snímek obrazovky 2020-11-10 v 10.42.47.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/galerie.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styly_galerie.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kontakt.html" beforeDir="false" afterPath="$PROJECT_DIR$/kontakt.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styly.css" beforeDir="false" afterPath="$PROJECT_DIR$/styly.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uvod.html" beforeDir="false" afterPath="$PROJECT_DIR$/uvod.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zivotopis.html" beforeDir="false" afterPath="$PROJECT_DIR$/zivotopis.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,6 +67,11 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -66,7 +83,7 @@
       <workItem from="1604773718362" duration="3150000" />
       <workItem from="1604815459714" duration="4519000" />
       <workItem from="1604823608877" duration="6311000" />
-      <workItem from="1604989626241" duration="3419000" />
+      <workItem from="1604989626241" duration="7284000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,20 @@
+
+.cover {
+    padding: 50px 100px 0px;
+}
+.column {
+    width: 33.33%;
+    min-height: 250px;
+    float: left;
+}
+section {
+    background: #59484f;
+    position: absolute;
+}
+.wrapper{
+    margin: 30px;
+}
+
+.wrapper img {
+    width: 100%;
+}
