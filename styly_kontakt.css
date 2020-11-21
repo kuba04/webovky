@@ -83,3 +83,9 @@ section .container .kontakt .social li .fa {
     margin-left: 40px;
 }
 
+section .container .kontakt .social li .fa:hover {
+    transform: scale(1.15);
+    transition: 0.5s;
+}
+
+

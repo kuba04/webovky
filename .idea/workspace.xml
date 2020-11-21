@@ -20,19 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df4756a4-d066-4f7d-b3de-98a0735f74db" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img7.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img8.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styly_recepty_uvod.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/galerie.html" beforeDir="false" afterPath="$PROJECT_DIR$/galerie.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kontakt.html" beforeDir="false" afterPath="$PROJECT_DIR$/kontakt.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recept1.html" beforeDir="false" afterPath="$PROJECT_DIR$/recept1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recept2.html" beforeDir="false" afterPath="$PROJECT_DIR$/recept2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recept3.html" beforeDir="false" afterPath="$PROJECT_DIR$/recept3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recepty.html" beforeDir="false" afterPath="$PROJECT_DIR$/recepty.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styly.css" beforeDir="false" afterPath="$PROJECT_DIR$/styly.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styly_galerie.css" beforeDir="false" afterPath="$PROJECT_DIR$/styly_galerie.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styly_recepty.css" beforeDir="false" afterPath="$PROJECT_DIR$/styly_recepty.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styly_kontakt.css" beforeDir="false" afterPath="$PROJECT_DIR$/styly_kontakt.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styly_uvod.css" beforeDir="false" afterPath="$PROJECT_DIR$/styly_uvod.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/uvod.html" beforeDir="false" afterPath="$PROJECT_DIR$/uvod.html" afterDir="false" />
     </list>
@@ -93,7 +82,7 @@
       <workItem from="1604989626241" duration="7284000" />
       <workItem from="1605511382651" duration="6010000" />
       <workItem from="1605763996602" duration="5160000" />
-      <workItem from="1605936477368" duration="11690000" />
+      <workItem from="1605936477368" duration="14003000" />
     </task>
     <servers />
   </component>
