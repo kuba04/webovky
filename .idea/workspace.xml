@@ -20,17 +20,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df4756a4-d066-4f7d-b3de-98a0735f74db" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Snímek obrazovky 2020-11-10 v 10.42.47.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/galerie.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styly_galerie.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG_2014.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG_4677.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG_6521.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG_6973.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img4.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img5.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imp6.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recept1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recept2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recept3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recepty.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styly_index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styly_kontakt.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styly_recepty.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Snímek obrazovky 2020-11-10 v 10.42.47.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/galerie.html" beforeDir="false" afterPath="$PROJECT_DIR$/galerie.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kontakt.html" beforeDir="false" afterPath="$PROJECT_DIR$/kontakt.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styly.css" beforeDir="false" afterPath="$PROJECT_DIR$/styly.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styly_galerie.css" beforeDir="false" afterPath="$PROJECT_DIR$/styly_galerie.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styly_uvod.css" beforeDir="false" afterPath="$PROJECT_DIR$/styly_uvod.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/uvod.html" beforeDir="false" afterPath="$PROJECT_DIR$/uvod.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zivotopis.html" beforeDir="false" afterPath="$PROJECT_DIR$/zivotopis.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zivotopis.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,8 +55,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -68,6 +83,9 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -84,6 +102,9 @@
       <workItem from="1604815459714" duration="4519000" />
       <workItem from="1604823608877" duration="6311000" />
       <workItem from="1604989626241" duration="7284000" />
+      <workItem from="1605511382651" duration="6010000" />
+      <workItem from="1605763996602" duration="5160000" />
+      <workItem from="1605936477368" duration="7679000" />
     </task>
     <servers />
   </component>
@@ -104,5 +125,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="764" y="307" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605515678502">
+      <screen x="0" y="23" width="1280" height="726" />
+    </state>
+    <state x="764" y="307" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1280.726@0.23.1280.726" timestamp="1605515678502" />
   </component>
 </project>

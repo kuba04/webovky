@@ -2,98 +2,12 @@
 <html lang="cs">
 <head>
     <meta charset="UTF-8">
-    <title>Kontakt</title>
+    <title>Kontakt - Adriana Kubecová - osobní web</title>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styly.css">
+    <link rel="stylesheet" href="styly_kontakt.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <style>
-
-        section {
-            position: relative;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            background: #59484f;
-        }
-
-        section .container {
-           padding-top: 50px;
-        }
-
-        section .container .kontakt {
-            margin: 0 auto;
-            width: 100%;
-            max-width: 500px;
-            height: auto;
-            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-            padding: 40px;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-        }
-
-        section .container .kontakt h2 {
-            color: #fff;
-            font-size: 30px;
-        }
-
-        section .container .kontakt .info {
-            position: relative;
-            margin: 20px 0;
-
-        }
-
-        section .container .kontakt .info li {
-            position: relative;
-            list-style: none;
-            display: flex;
-            margin: 20px 0;
-            cursor: pointer;
-            align-items: flex-start;
-
-        }
-
-
-        section .container .kontakt .info li span .fa {
-            font-size: 80px;
-            line-height: 60px;
-            color: #fff;
-            margin-top: 30px;
-        }
-
-
-        section .container .kontakt .info li span:nth-child(2) {
-            color: #fff;
-            margin-top: 45px;
-            margin-left: 20px;
-        }
-
-
-        section .container .kontakt .social {
-            position: relative;
-            display: flex;
-            margin-top: 40px;
-        }
-
-        section .container .kontakt .social li {
-            list-style: none;
-            margin-right: 30px;
-            cursor: pointer;
-        }
-
-        section .container .kontakt .social li a {
-            text-decoration: none;
-        }
-
-        section .container .kontakt .social li .fa {
-            font-size: 60px;
-            line-height: 60px;
-            color: #fff;
-            margin-left: 40px;
-        }
-
-
-    </style>
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
 </head>
 <body>
 <header>
@@ -103,12 +17,13 @@
     <nav>
         <ul class="nav_links">
             <li><a href="uvod.html">Úvod</a></li>
-            <li><a href="zivotopis.html">Životopis</a></li>
+            <li><a href="recepty.html">Životopis</a></li>
             <li><a href="galerie.html">Fotogalerie</a></li>
-            <li><a href="kontakt.html">Kontakt</a></li>
+            <li><a class="current" href="kontakt.html">Kontakt</a></li>
         </ul>
     </nav>
 </header>
+<main>
 <section>
 <div class="container">
     <div class="kontakt">
@@ -133,6 +48,11 @@
     </div>
 </div>
 </section>
+</main>
+<footer>
 
+    <p>Tato stránka byla vytvořena v zimním semestru 2020/2021 jako semestrální práce k předmětu 4IZ268.</p>
+
+</footer>
 </body>
 </html>

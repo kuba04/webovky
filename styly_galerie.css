@@ -1,15 +1,18 @@
 
 .cover {
     padding: 50px 100px 0px;
+    min-height: 100vh;
 }
 .column {
     width: 33.33%;
     min-height: 250px;
     float: left;
+
 }
-section {
+body {
     background: #59484f;
-    position: absolute;
+    display: flex;
+    flex-direction: column;
 }
 .wrapper{
     margin: 30px;
@@ -17,4 +20,8 @@ section {
 
 .wrapper img {
     width: 100%;
+}
+
+footer p {
+    color: white;
 }

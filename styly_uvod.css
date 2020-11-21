@@ -5,35 +5,50 @@ h1 {
     font-family: 'Open Sans', serif;
 }
 
-
-p {
-    font-size: 20px;
-}
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+body {
+    display: flex;
+    flex-direction: column;
 }
 
-.box{
-    display: grid;
-    grid-gap: 1em;
-}
-.box > div{
-    background:lightgray;
-    padding: 1em;
-}
 .container {
-   margin: 0 auto;
     padding-left: 30px;
     padding-right: 30px;
+    padding-top: 30px;
+    min-height: 100vh;
 }
 
-.container .box {
-    width: 100%;
-    text-align: center;
-    background: #eee;
-    margin-top: 30px;
-    border-radius: 10px;
+
+.container .containerR h2 {
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
 }
+
+.container .containerR article {
+    margin: 0 auto;
+    float: left;
+    width: 800px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.container .containerR ul {
+    float: right;
+    width: 300px;
+    background: #59484f;
+    padding: 20px;
+    border-radius: 5px;
+    list-style: none;
+}
+
+.container .containerR ul li {
+    color: white;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
 
