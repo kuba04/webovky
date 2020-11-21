@@ -25,5 +25,6 @@ body {
 
 .column .wrapper:hover{
     transform: scale(1.15);
+    box-shadow: 0 25px 40px rgba(0,0,0,.5);
     transition: 0.5s;
 }

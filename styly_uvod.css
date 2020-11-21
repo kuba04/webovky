@@ -11,41 +11,41 @@ body {
 }
 
 .container {
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 30px;
-    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    min-height: 80vh;
 }
 
-
-.container .containerR h2 {
-    padding: 10px;
-    border-radius: 5px;
-    margin-bottom: 20px;
+.containerL {
+    flex: 3;
+    padding: 30px;
 }
 
-.container .containerR article {
-    margin: 0 auto;
-    float: left;
-    width: 800px;
-    padding: 20px;
-    border-radius: 5px;
+.containerR{
+    flex: 1;
+    padding: 30px;
 }
-
 .container .containerR ul {
-    float: right;
-    width: 300px;
-    background: #59484f;
     padding: 20px;
     border-radius: 5px;
     list-style: none;
 }
 
-.container .containerR ul li {
-    color: white;
-    margin-bottom: 5px;
+.container .containerL article {
+    padding: 20px;
 }
 
+.container .containerL h2 {
+    padding: 20px;
+}
+
+@media screen and (max-width: 768px){
+    .container{
+        flex-direction: column;
+    }
+}
 
 
 

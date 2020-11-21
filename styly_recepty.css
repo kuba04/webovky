@@ -2,11 +2,32 @@
 body {
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    min-height: 80vh;
 }
 
 main h2{
     text-align: center;
     margin: 40px;
+}
+.containerL{
+    flex: 1;
+    padding: 30px;
+}
+.containerL .pic {
+    float: left;
+    margin: 20px 20px 20px 40px;
+}
+.containerR{
+    flex: 2;
+    padding: 30px;
 }
 
 .containerR p {
@@ -17,27 +38,10 @@ main h2{
     float: left;
     list-style: none;
     margin-right: 20px;
+    margin-bottom: 20px;
 }
 
-.container{
-    width: 100%;
-    display: flex;
-    box-sizing: border-box;
-    flex-direction: row;
-}
 
-.containerL{
-    flex: 1;
-    padding: 30px;
-}
- .containerL .pic {
-    float: left;
-    margin: 20px 20px 20px 40px;
-}
-.containerR{
-    flex: 2;
-    padding: 30px;
-}
 
 @media screen and (max-width: 768px){
     .container{
