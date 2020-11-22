@@ -3,12 +3,12 @@ section {
     position: relative;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 90vh;
     background: #59484f;
 }
 
 section .container {
-    padding-top: 50px;
+    padding-top: 40px;
 }
 
 section .container .kontakt {
@@ -87,5 +87,6 @@ section .container .kontakt .social li .fa:hover {
     transform: scale(1.15);
     transition: 0.5s;
 }
+
 
 

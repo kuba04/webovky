@@ -53,5 +53,13 @@ footer p {
     margin-top: auto;
 }
 
+@media (max-width:1200px){
+    .nav_links li{
+        display: block;
+    }
+}
+
+
+
 
 

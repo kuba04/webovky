@@ -10,6 +10,14 @@ body {
     flex-direction: column;
 }
 
+.list {
+    padding-bottom: 20px;
+}
+
+.lists {
+    padding-bottom: 10px;
+}
+
 .img-container {
     height: 300px;
     position: relative;
@@ -50,7 +58,7 @@ body {
     padding: 20px;
 }
 
-@media screen and (max-width: 768px){
+@media (max-width: 768px){
     .container{
         flex-direction: column;
     }
