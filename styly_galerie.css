@@ -28,4 +28,14 @@ body {
     transition: 0.5s;
 }
 
-
+@media print {
+    .cover{
+        min-height: auto;
+    }
+    header h1{
+        color: #000;
+    }
+    .nav_links li,a{
+        color: #000;
+    }
+}

@@ -2,7 +2,6 @@
 body {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
 }
 
 .container{
@@ -52,4 +51,16 @@ main h2{
     }
 }
 
+@media print {
+    .container{
+        min-height: auto;
+        flex-direction: column-reverse;
+    }
+    header h1{
+        color: #000;
+    }
+    .nav_links li,a{
+        color: #000;
+    }
 
+}
