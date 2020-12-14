@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', serif;
+    max-width: 1500px;
 }
 .nav_links li,a {
     font-family: 'Open Sans', Serif, serif;
@@ -48,9 +49,231 @@ header h1 {
 footer p {
     background: #262123;
     color: white;
-    padding: 3em;
+    padding: 1em;
     text-align: center;
     margin-top: auto;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Open Sans', serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.list {
+    margin-bottom: 1rem;
+    padding-bottom: 20px;
+}
+
+.lists {
+    padding-bottom: 10px;
+}
+
+.img-container {
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    background: url("img1.png") no-repeat center;
+    background-size: cover;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    min-height: 80vh;
+    padding: 10px 40px 40px 40px;
+}
+
+.containerL {
+    flex: 3;
+    padding: 30px;
+}
+
+.containerR{
+    flex: 1;
+    padding: 30px;
+}
+.container .containerR ul {
+    padding: 20px;
+    border-radius: 5px;
+    list-style: none;
+}
+
+.container .containerL article {
+    padding: 20px;
+}
+
+.container .containerL h2 {
+    padding: 20px;
+}
+
+
+section {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+section .container {
+    padding-top: 40px;
+}
+
+section .container .kontakt {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    background: #262123;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+section .container .kontakt h2 {
+    color: #fff;
+    font-size: 30px;
+}
+
+section .container .kontakt .info {
+    position: relative;
+    margin: 20px 0;
+
+}
+
+section .container .kontakt .info li {
+    position: relative;
+    list-style: none;
+    display: flex;
+    margin: 20px 0;
+    align-items: flex-start;
+
+}
+
+
+section .container .kontakt .info li span .fa {
+    font-size: 80px;
+    line-height: 60px;
+    color: #fff;
+    margin-top: 30px;
+}
+
+
+section .container .kontakt .info li span:nth-child(2) {
+    color: #fff;
+    margin-top: 45px;
+    margin-left: 20px;
+}
+
+
+section .container .kontakt .social {
+    position: relative;
+    display: flex;
+    margin-top: 40px;
+}
+
+section .container .kontakt .social li {
+    list-style: none;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+section .container .kontakt .social li a {
+    text-decoration: none;
+}
+
+section .container .kontakt .social li .fa {
+    font-size: 60px;
+    line-height: 60px;
+    color: #fff;
+    margin-left: 40px;
+}
+
+section .container .kontakt .social li .fa:hover {
+    transform: scale(1.15);
+    transition: 0.5s;
+}
+
+.cover {
+    padding: 50px 50px;
+    min-height: 80vh;
+}
+.column {
+    width: 33.33%;
+    min-height: 250px;
+    float: left;
+
+}
+
+.wrapper{
+    margin: 30px;
+    padding-bottom: 20px;
+}
+
+.wrapper img {
+    width: 100%;
+}
+
+.column .wrapper:hover{
+    transform: scale(1.15);
+    transition: 0.5s;
+}
+
+
+.container_r{
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    min-height: 80vh;
+}
+
+.containerR_r h2{
+    text-align: center;
+    margin: 40px;
+}
+
+.containerL_r{
+    flex: 1;
+    padding: 30px;
+}
+.containerL_r .pic {
+    float: left;
+    margin: 20px 20px 20px 40px;
+}
+.containerR_r{
+    flex: 2;
+    padding: 30px;
+}
+
+
+.containerR_r h4 {
+    margin-bottom: 1rem;
+    padding-bottom: 20px;
+}
+
+.containerR_r ul {
+    float: left;
+    list-style: none;
+    margin-right: 20px;
+
+}
+
+@media (max-width: 768px){
+    .container{
+        flex-direction: column;
+    }
+    .container_r{
+        flex-direction: column-reverse;
+    }
 }
 
 @media (max-width:1200px){
@@ -58,6 +281,24 @@ footer p {
         display: block;
     }
 }
+
+@media print {
+    nav, footer {
+        display: none;
+    }
+    .img-container{
+        height: 0;
+    }
+    .container_r{
+        min-height: auto;
+        flex-direction: column-reverse;
+    }
+    section .container .kontakt .social{
+        display: none;
+    }
+}
+
+
 
 
 
